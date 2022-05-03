@@ -11,6 +11,13 @@
 }
 
 .text-dark-blue {
-    color: #1600ff;
+    color: #6b7be7;
 }
 
+.text-light-blue {
+    color: #50cdff;
+}
+
+.page-content {
+    background-color: #005bbb;
+}
