@@ -38,7 +38,10 @@
         border-radius: 6px;
         border-bottom:4px solid #1c68b3 !important;
     }
-
+    .card-orange{
+        border-radius: 6px;
+        border-bottom:4px solid #FF8D29 !important;
+    }
     .col .card img{
         aspect-ratio: 1 / 1;
         object-fit:cover;
@@ -55,12 +58,18 @@
     .card-pink svg{
       fill:#ff2c95;
     }
+    .card-orange svg{
+        fill:#FF8D29;
+      }
     .card-blue .card-footer p{
       color:#1c68b3 ;
     }
     .card-pink .card-footer p{
       color: #ff2c95;
     }
+    .card-orange .card-footer p{
+        color: #FF8D29;
+      }
     .card-shape{
       position:relative;
     }
@@ -87,4 +96,80 @@
 
 a:hover {
     text-decoration: none;
+}
+
+
+.news-list{
+  list-style: none outside;
+  margin: 0;
+  padding: 0;
+}
+.news-list .item div{
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #CCC;
+  padding: 20px 20px;
+}
+.news-list .item:first-child div{
+  border-top: 1px solid #CCC;
+}
+.news-list .item .date{
+  margin: 0;
+  min-width: 140px;
+  font-size: 14px;
+  color: #999;
+  padding: 0 20px 0 0;
+}
+.news-list .item .category{
+  margin: 0;
+  min-width: 140px;
+  padding: 0 20px 0 0;
+}
+.news-list .item .category span{
+  background: #999;
+  color: #FFF;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 11px;
+  line-height: 1;
+}
+.news-list .item .title{
+  margin: 0;
+  width: 100%;
+}
+.news-list .item .details{
+    font-size: 0.8em;
+    display: block;
+  }
+.news-list .item a:hover .title{
+  color: #00F;
+}
+
+@media screen and (max-width: 767px){
+.news-list .item div{
+  flex-wrap: wrap;
+}
+.news-list .item .date{
+  min-width: 100px;
+}
+.news-list .item .title{
+  margin-top: 10px;
+}
+}
+
+
+.accordion button:hover, .accordion button:focus {
+    border: none;
+}
+
+div.info-list {
+    font-size: 0.8em;
+}
+
+.info-list .title {
+    color: #034758;
 }
