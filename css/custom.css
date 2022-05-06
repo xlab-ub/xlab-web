@@ -173,3 +173,5 @@ div.info-list {
 .info-list .title {
     color: #034758;
 }
+
+@media only screen and (max-width: 1024px){.header{background-color: #005bbb;} .menu-toggle{background-color: #005bbb;}}
