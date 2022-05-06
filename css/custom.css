@@ -175,3 +175,5 @@ div.info-list {
 }
 
 @media only screen and (max-width: 1024px){.header{background-color: #005bbb;} .menu-toggle{background-color: #005bbb;}}
+
+.preloader-spinner {background-color: #005bbb;}
