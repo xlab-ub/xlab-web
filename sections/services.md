@@ -1,14 +1,14 @@
 <div class="block-title"><h3>Services: for it's our Community</h3></div>
 <br>
 
-<div class="accordion accordion-flush" id="newsAccordion">
+<div class="accordion accordion-flush" id="servicesAccordion">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         Editorship
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#newsAccordion">
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#servicesAccordion">
       <div class="accordion-body">
       
 1. Associate Editor, ACM Transactions on Reconfigurable Technology and Systems (TRETS), March 2019 - present
@@ -24,7 +24,7 @@
         Conference and Workshop Chairs and Co-Chairs
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#newsAccordion">
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#servicesAccordion">
       <div class="accordion-body">
 
 1. Tutorial Chair, International Conference On Computer Aided Design (ICCAD), 2021
@@ -56,7 +56,7 @@
          Technical Program Committees
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#newsAccordion">
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#servicesAccordion">
       <div class="accordion-body">
 
 1. TPC, The Fifth Conference on Machine Learning and Systems (MLSys), 2022
@@ -84,7 +84,7 @@
         Community Services
       </button>
     </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#newsAccordion">
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#servicesAccordion">
       <div class="accordion-body">
 
 1. Secretary, Chinese Institute of Engineers, Greater New York Chapter, 2021-present
@@ -107,7 +107,7 @@
         Departmental Services @ UB
       </button>
     </h2>
-    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#newsAccordion">
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#servicesAccordion">
       <div class="accordion-body">
 
 1. Co-Chair, Student Engagement and Experiential Learning Comitteee (2021 - present)

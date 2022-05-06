@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             var elem3 = document.querySelector('#publication-container');
             var html3 = md.render(thirdResponse.data);
-            //elem3.innerHTML = html3;
+            elem3.innerHTML = html3;
 
             var elem4 = document.querySelector('#recognition-container');
             var html4 = md.render(forthResponse.data);
