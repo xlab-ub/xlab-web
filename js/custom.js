@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
             var html1 = md.render(firstResponse.data);
             elem1.innerHTML = html1;
 
-            console.log(html1);
             var elem2 = document.querySelector('#research-container');
             var html2 = md.render(secondResponse.data);
             elem2.innerHTML = html2;
