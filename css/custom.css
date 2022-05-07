@@ -180,4 +180,4 @@ div.info-list {
 .page-title h2 span{color:#005bbb}
 .block-title h3 span{color:#005bbb}
 
-@media (max-width: 1024px) { .header-titles .owl-carousel { display: none; } }
+@media (max-width: 1024px) { .header-titles .owl-carousel { display: none; } .main-menu { padding-left: 0;} }
