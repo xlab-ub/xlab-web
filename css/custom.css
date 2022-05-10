@@ -182,4 +182,4 @@ div.info-list {
 
 @media (max-width: 1024px) { .header-titles .owl-carousel { display: none; } .main-menu { padding-left: 0;} }
 
-ul.main-menu {overflow: scroll;}
+ul.main-menu {overflow: auto;}
