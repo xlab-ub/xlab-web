@@ -181,3 +181,5 @@ div.info-list {
 .block-title h3 span{color:#005bbb}
 
 @media (max-width: 1024px) { .header-titles .owl-carousel { display: none; } .main-menu { padding-left: 0;} }
+
+ul.main-menu {overflow: scroll;}
