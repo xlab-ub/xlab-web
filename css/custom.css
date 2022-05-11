@@ -24,6 +24,9 @@
 
 .page-content {
     background-color: #005bbb;
+    background-image: url("../img/davis.png");
+    background-repeat: no-repeat;
+    background-size:30% 110%;
 }
 
 #team-container blockquote {
@@ -174,6 +177,7 @@ div.info-list {
     color: #034758;
 }
 
+
 @media only screen and (max-width: 1024px) {.header{background-color: #005bbb;} .menu-toggle{background-color: #005bbb;}}
 @media only screen and (min-width: 1025px) {ul.main-menu a.active, ul.main-menu a:focus, ul.main-menu a:hover {color: #005bbb;}}
 .preloader-spinner {background-color: #005bbb;}
@@ -182,4 +186,4 @@ div.info-list {
 
 @media (max-width: 1024px) { .header-titles .owl-carousel { display: none; } .main-menu { padding-left: 0;} }
 
-ul.main-menu {overflow: auto;}
+/* ul.main-menu {overflow: auto;} */
