@@ -24,9 +24,9 @@
 
 .page-content {
     background-color: #005bbb;
-    background-image: url("../img/davis.png");
+    background-image: url("../img/davis-hall.jpg"); /*I think in this case the back ground image isn't a good option!*/
     background-repeat: no-repeat;
-    background-size:30% 110%;
+    background-size:100% 100%;
 }
 
 #team-container blockquote {
@@ -186,4 +186,10 @@ div.info-list {
 
 @media (max-width: 1024px) { .header-titles .owl-carousel { display: none; } .main-menu { padding-left: 0;} }
 
-/* ul.main-menu {overflow: auto;} */
+ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a fix to scroll the main menu in small screens, and remove the bottom margin*/
+
+.full-max-width {
+    max-width: 100%;
+}
+
+.header-photo {z-index: auto;}
