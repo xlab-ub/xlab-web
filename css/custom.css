@@ -199,12 +199,12 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
   border-radius: 0;
 }
 
-.stacked-list {
-  border-bottom: 0;
+.stacked-list .certificate-item {
+  border-bottom-width: 0;
 }
 
-.stacked-list:last-of-type {
-  border-bottom: inherit;
+.stacked-list:last-of-type .certificate-item {
+  border-bottom-width: 2px;
 }
 
 .width-150 {
