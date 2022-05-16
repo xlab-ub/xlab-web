@@ -40,13 +40,13 @@
 <div class="timeline timeline-second-style clearfix">
 <div class="timeline-item clearfix">
     <div class="left-part">
-    <h5 class="item-period">2022/4/15</h5>
+    <h5 class="item-period">5/5/2022</h5>
     <span class="item-company"><span class="badge bg-success"><i class="fa-solid fa-rss"></i> News</span></span>
     </div>
     <div class="divider"></div>
     <div class="right-part">
-    <h4 class="item-title">Title..  test test test test test test test test.</h4>
-    <p>Details...</p>
+    <h4 class="item-title">Read our recent work <a href="https://www.theregister.com/2022/05/05/stock_market_twitter/" target="_blank">here</a>.</h4>
+    <p><a href="https://arxiv.org/abs/2205.01094" target="_blank">A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction</a></p>
     </div>
 </div>
 
