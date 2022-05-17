@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
             axios.get("/sections/recognitions.md"),
             axios.get("/sections/services.md"),
             axios.get("/sections/teaching.md"),
-            // axios.get("/sections/team.html"),
+            axios.get("/sections/team.html"),
             axios.get("/sections/positions.md")
         ])
-        .then(axios.spread((firstResponse, secondResponse, thirdResponse, forthResponse, fifthResponse, sixthResponse, seventhResponse) => {
+        .then(axios.spread((firstResponse, secondResponse, thirdResponse, forthResponse, fifthResponse, sixthResponse, seventhResponse, eighthResponse) => {
             var md = new window.markdownit("commonmark", {html: true, breaks: true, linkify: true, typographer: true});
 
 
@@ -36,11 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
             var html6 = md.render(sixthResponse.data);
             elem6.innerHTML = html6;
 
-            // var elem7 = document.querySelector('#team-container');
-            // elem7.innerHTML = seventhResponse.data;
+            var elem7 = document.querySelector('#team-container');
+            var html7 = md.render(seventhResponse.data);
+            elem7.innerHTML = html7;
 
             var elem8 = document.querySelector('#positions-container');
-            var html8 = md.render(seventhResponse.data);
+            var html8 = md.render(eighthResponse.data);
             elem8.innerHTML = html8;
         }))
         .catch(error => console.log(error));
