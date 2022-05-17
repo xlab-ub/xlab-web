@@ -184,7 +184,7 @@ div.info-list {
 .page-title h2 span{color:#005bbb}
 .block-title h3 span{color:#005bbb}
 
-@media (max-width: 1024px) { .header-titles .owl-carousel { display: none; } .main-menu { padding-left: 0;} }
+@media (max-width: 1024px) { .header-titles .owl-carousel { display: none; } .main-menu { padding-left: 0;}}
 
 ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a fix to scroll the main menu in small screens, and remove the bottom margin*/
 
@@ -332,4 +332,5 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
   width: 90%;
 }
 
-@media only screen and (min-width: 1025px) { .page {padding-left: 85px;} ul.main-menu {width: 85px;left: -85px;} }
+@media only screen and (min-width: 1025px) { .page {padding-left: 85px;} ul.main-menu {width: 85px;left: -85px;}}
+@media (max-width: 1024px) {.timeline-second-style .left-part {width: 100%; display: block; padding-left: 25px; min-height: 100%; text-align: left;} .timeline-second-style .right-part {width: 100%; display: block; padding-left: 25px; padding-right: 0;} .timeline-second-style .divider {left:0;} .timeline-second-style .timeline-item {position: relative; display: block;}}
