@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     axios.all([axios.get("/sections/news.md"),
             axios.get("/sections/research.md"),
             axios.get("/sections/publication.md"),
-            axios.get("/sections/recognition.md"),
+            axios.get("/sections/recognitions.md"),
             axios.get("/sections/services.md"),
             axios.get("/sections/teaching.md"),
             // axios.get("/sections/team.html"),
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var html3 = md.render(thirdResponse.data);
             elem3.innerHTML = html3;
 
-            var elem4 = document.querySelector('#recognition-container');
+            var elem4 = document.querySelector('#recognitions-container');
             var html4 = md.render(forthResponse.data);
             elem4.innerHTML = html4;
 

@@ -1,4 +1,4 @@
-<div class="block-title"><h3>Curiosity-driven AI Systems Research</h3></div>
+<div class="block-title"><h3>Curiosity-driven AI Systems <span>Research</span></h3></div>
 <br>
 
 #### Introduction
