@@ -2,9 +2,9 @@
   We don't have any open positions right now.
 </div> -->
 
-<div class="alert alert-success" role="alert">
+<!-- <div class="alert alert-success" role="alert">
   For scholarly collaborations and consulting inquiries please contact me.
-</div>
+</div> -->
 
 Prof. Xiong's X-Lab@UB has <span class="text-danger">multiple openings</span> for highly motivated **Ph.D. Students** and **Postdoctoral Fellows** to join him to conduct cutting-edge AI systems and solutions research.
 
