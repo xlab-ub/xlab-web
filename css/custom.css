@@ -322,6 +322,10 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 	color: #fff;
 }
 
+.certi-title h4 {
+  font-size: 14px;
+}
+
 .timeline-second-style .divider {
   left: 10%;
 }
