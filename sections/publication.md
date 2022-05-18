@@ -2,7 +2,7 @@
 <br>
 
 <div class="container">
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-center">
     <div class="col-auto mt-3">
      <div class="card" style="width: 18rem;">
         <img src="../img/Patents.png" class="card-img-top" alt="...">
@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-center">
     <div class="col-auto mt-3">
      <div class="card" style="width: 18rem;">
         <img src="../img/workshop.jpg" class="card-img-top" alt="...">
