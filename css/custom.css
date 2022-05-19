@@ -296,13 +296,13 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
   color: #fff;
 	margin: 0px;
 	font-size: 16px;
-	text-shadow: 0 0 2px #fff;
+	text-shadow: -1px 1px 8px #fff;
 }
 .card-team .info p {
 	letter-spacing: 1px;
 	font-size: 12px;
 	margin-top: 8px;
-	text-shadow: 0 0 2px #fff;
+	text-shadow: 0 0 4px #fff;
 }
 .card-team .info a {
 	padding: 0.5rem;
