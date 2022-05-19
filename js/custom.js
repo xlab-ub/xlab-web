@@ -12,14 +12,14 @@ function customScroller() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    axios.all([axios.get("/sections/news.md"),
-            axios.get("/sections/research.md"),
-            axios.get("/sections/publication.md"),
-            axios.get("/sections/recognitions.md"),
-            axios.get("/sections/services.md"),
-            axios.get("/sections/teaching.md"),
-            axios.get("/sections/team.html"),
-            axios.get("/sections/positions.md")
+    axios.all([axios.get("./sections/news.md"),
+            axios.get("./sections/research.md"),
+            axios.get("./sections/publication.md"),
+            axios.get("./sections/recognitions.md"),
+            axios.get("./sections/services.md"),
+            axios.get("./sections/teaching.md"),
+            axios.get("./sections/team.html"),
+            axios.get("./sections/positions.md")
         ])
         .then(axios.spread((firstResponse, secondResponse, thirdResponse, forthResponse, fifthResponse, sixthResponse, seventhResponse, eighthResponse) => {
             var md = new window.markdownit("commonmark", {html: true, breaks: true, linkify: true, typographer: true});
