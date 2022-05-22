@@ -343,5 +343,6 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 #home-container p:hover, #home-container li:hover,
 #research-container p:hover, #research-container li:hover,
 #positions-container p:hover, #positions-container li:hover {
-  color: #070090;
+  color: #000000;
+  text-shadow: 0 0 1px #00000045;
 }
