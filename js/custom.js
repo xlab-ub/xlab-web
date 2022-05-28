@@ -58,6 +58,12 @@ document.addEventListener("DOMContentLoaded", function () {
             elem8.innerHTML = html8;
 
             customScroller();
+
+            const tooltipTriggerListAjax = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            const tooltipListAjax = [...tooltipTriggerListAjax].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
         }))
         .catch(error => console.log(error));
 }, false);
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
