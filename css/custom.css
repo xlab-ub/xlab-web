@@ -219,7 +219,7 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
   vertical-align: baseline;
 }
 
-@media (max-width: 768px) { .certi-logo { display: none;} }
+@media (max-width: 768px) { .certi-logo { display: none;} #journals-info-alert { display: none; } }
 
 .header-titles h2, .copyrights, .sp-subtitle{
   text-shadow: 0 0 5px #000;
