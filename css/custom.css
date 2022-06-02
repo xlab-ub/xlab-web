@@ -204,11 +204,11 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 }
 
 .stacked-list:last-of-type .certificate-item {
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
 }
 
 .width-150 {
-  width: 150px;
+  width: 151px;
 }
 
 .width-200 {
@@ -351,4 +351,15 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 .custom-info-tooltip {
   --bs-tooltip-bg: #005bbb;
   color: #fff;
+}
+
+.stacked-list .certificate-item {
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+.stacked-list .certi-logo {
+  border-right: 1px solid #e5e5e5;
+  background-color: #fff;
 }
