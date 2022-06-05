@@ -2,4 +2,4 @@
 ## Prof. Jinjun Xiong
 This repository contains the source code of [X-Lab](https://www.xlab-ub.com/)'s website.
 
-Try [demo](https://kiarashs.github.io/XLab/)!
+Try [demo](https://xlab.kiarashs.ir/)!
