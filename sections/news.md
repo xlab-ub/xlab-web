@@ -1,4 +1,4 @@
-<div class="block-title"><h3>Be <span>informed!</span></h3></div>
+<div class="block-title"><h3>Be informed!</h3></div>
 
 <!-- <ul class="news-list">
     <li class="item">

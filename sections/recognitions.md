@@ -1,4 +1,4 @@
-<div class="block-title"><h3>Recognitions: Part of a Journey, but not the <span>Destination</span></h3></div>
+<div class="block-title"><h3>Recognitions: Part of a Journey, but not the Destination</h3></div>
 <br>
 
 <div class="accordion accordion-flush" id="recognitionsAccordion">

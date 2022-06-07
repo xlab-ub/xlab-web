@@ -1,4 +1,4 @@
-<div class="block-title"><h3>Services: for it's our <span>Community</span></h3></div>
+<div class="block-title"><h3>Services: for it's our community</h3></div>
 <br>
 
 <div class="accordion accordion-flush" id="servicesAccordion">

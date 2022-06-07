@@ -1,4 +1,4 @@
-<div class="block-title"><h3>Teaching: the sacred responsibility of <span>Academia</span></h3></div>
+<div class="block-title"><h3>Teaching: the sacred responsibility of academia</h3></div>
 <br>
 
 #### Courses

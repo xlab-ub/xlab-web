@@ -1,4 +1,4 @@
-<div class="block-title"><h3>Publication: Make Every Work <span>Count</span></h3></div>
+<div class="block-title"><h3>Publication: Make Every Work Count</h3></div>
 <br>
 
 <div class="row row-cols-auto g-3 justify-content-center">
