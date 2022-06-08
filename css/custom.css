@@ -366,5 +366,29 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 
 .header-titles h4 {
   font-size: .9em;
-  text
+}
+
+
+/* Circle card team */
+.card-team {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+.card-team::before {
+  border-radius: 50%;
+}
+
+.card-team img {
+  border-radius: 50%;
+}
+
+.card-team .info {
+  margin: auto !important;
+  text-align: center;
+}
+
+.card-team .info a {
+  margin-left: 19.99px;
 }
