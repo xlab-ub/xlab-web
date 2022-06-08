@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ])
         .then(axios.spread((firstResponse, secondResponse, thirdResponse, forthResponse, fifthResponse, sixthResponse, seventhResponse, eighthResponse) => {
             var md = new window.markdownit("commonmark", {html: true, breaks: true, linkify: true, typographer: true});
+            var mdAttr = window.markdownItAttrs;
+            md.use(mdAttr);
 
 
             var elem1 = document.querySelector('#news-container');
