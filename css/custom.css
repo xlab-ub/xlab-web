@@ -295,9 +295,9 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 }
 .card-team .info h1 {
   color: #fff;
-	margin: 0px;
-	font-size: 16px;
-	text-shadow: -1px 1px 8px #fff;
+  margin: 0px;
+  font-size: 16px;
+  text-shadow: -1px 1px 8px #fff;
 }
 .card-team .info p {
 	letter-spacing: 1px;
@@ -391,4 +391,13 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 
 .card-team .info a {
   margin-left: 19.99px;
+  font-size: 11.5px;
+}
+
+.card-team .info h1 {
+  font-size: 15px;
+}
+
+.card-team .info p {
+  font-size: 12px;
 }
