@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             axios.get("./sections/recognitions.md"),
             axios.get("./sections/services.md"),
             axios.get("./sections/teaching.md"),
-            axios.get("./sections/team.html"),
+            axios.get("./sections/team.md"),
             axios.get("./sections/positions.md"),
             axios.get("./sections/contact.md")
         ])
