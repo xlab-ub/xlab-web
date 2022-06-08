@@ -18,7 +18,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/KiarashS/XLab">
-    <img src="img/website.svg" alt="Logo" width="120" height="120">
+    <img src="img/doc/website.svg" alt="Logo" width="120" height="120">
   </a>
 
 <h3 align="center">X-Lab's Website</h3>
@@ -116,4 +116,4 @@ Project Link: [https://github.com/KiarashS/XLab](https://github.com/KiarashS/XLa
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: img/screenshot.jpeg
+[product-screenshot]: img/doc/screenshot.jpeg
