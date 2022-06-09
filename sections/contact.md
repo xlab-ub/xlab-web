@@ -22,7 +22,7 @@
     </div>
     <div class="lm-info-block gray-default">
     <i class="lnr lnr-envelope"></i>
-    <h4><a href="mailto:jinjun@buffalo.edu">jinjun@buffalo.edu</a></h4>
+    <h4><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#105;&#110;&#106;&#117;&#110;&#64;&#98;&#117;&#102;&#102;&#97;&#108;&#111;&#46;&#101;&#100;&#117;">&#106;&#105;&#110;&#106;&#117;&#110;&#64;&#98;&#117;&#102;&#102;&#97;&#108;&#111;&#46;&#101;&#100;&#117;</a></h4>
     <span class="lm-info-block-value"></span>
     <span class="lm-info-block-text"></span>
     </div>
