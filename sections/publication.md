@@ -46,7 +46,7 @@
       <div class="card" style="width: 13rem;">
         <img src="./img/books.svg" class="card-img-top" alt="books" style="padding: 1rem;" title="Books and Book Chapters">
         <div class="card-body text-center">
-            <a href="pages/bookchapters.html" class="btn btn-primary ajax-page-load" style="font-size: .85em;">Book Chapters</a>
+            <a href="pages/bookchapters.html" class="btn btn-primary ajax-page-load" style="font-size: .85em;">Books & Chapters</a>
         </div>
         </div>
     </div>
