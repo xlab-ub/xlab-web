@@ -39,7 +39,7 @@
 
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-12">
-        <!--Ad your news to here -->
+        <!--Put your news below this line -->
         <div class="timeline timeline-second-style clearfix">
             <div class="timeline-item clearfix">
                 <div class="left-part">
