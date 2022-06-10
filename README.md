@@ -61,9 +61,6 @@
 
 This document describes how you may use the website to publish your contents.
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Useful Links
 
 - Markdown
@@ -71,7 +68,6 @@ This document describes how you may use the website to publish your contents.
 - Email encoders
   - https://ctrlq.org/encode/
   - https://www.knechtology.com/stop-spam/email_encoder.html
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -87,22 +83,16 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Home Section
 
 aaa
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ### News Section
 
 aaa
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ### Research Section
