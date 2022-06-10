@@ -101,7 +101,7 @@ You must edit the `sections/news.md` to update the contents of the news section.
 
 Follow up these steps to add a news to your website:
 
-1. Add this template below `<!--Ad your news to here -->` line
+1. Add this template below `<!--Ad your news to here -->` line in the `sections/news.md` file:
 ```
 <div class="timeline timeline-second-style clearfix">
     <div class="timeline-item clearfix">
