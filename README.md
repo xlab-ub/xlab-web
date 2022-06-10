@@ -92,17 +92,40 @@ _NOTE: You can use a combination of `HTML` and `MARKDOWN` in the markdown files.
 
 ### Home Section
 
-aaa
+You must edit the `sections/home.md` to update the logo, title, and contents of the home section.
 
 
 ### News Section
 
-aaa
+You must edit the `sections/news.md` to update the contents of the news section.
+
+Follow up these steps to add a news to your website:
+
+1. Add this template below `<!--Ad your news to here -->` line
+```
+<div class="timeline timeline-second-style clearfix">
+    <div class="timeline-item clearfix">
+        <div class="left-part">
+            <h5 class="item-period">{DATE}</h5>
+            <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> {TYPE}</span></span>
+        </div>
+        <div class="divider"></div>
+        <div class="right-part">
+            <h4 class="item-title">{TITLE}</h4>
+            <p>{DETAIL}</p>
+        </div>
+    </div>
+</div>
+```
+2. Replace `{DATE}`, `{TYPE}`, `{TITLE}`, and `{DETAIL}` variables with your own contents.
+
+NOTE: The `{DETAIL}` variable is optional. Therefore, if your news hasn't `{DETAIL}` variable, you must remove `<p>{DETAIL}</p>`.
 
 
 ### Research Section
 
-aaa
+You must edit the `sections/research.md` to update the contents of the research section.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

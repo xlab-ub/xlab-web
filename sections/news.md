@@ -38,20 +38,20 @@
 <span class="item-company"><span class="badge bg-warning text-dark"><i class="fa-regular fa-calendar-check"></i> Event</span></span> -->
 
 <div class="row">
-<div class="col-xs-12 col-sm-12 col-12">
-<div class="timeline timeline-second-style clearfix">
-<div class="timeline-item clearfix">
-    <div class="left-part">
-    <h5 class="item-period">5/5/2022</h5>
-    <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> Publication</span></span>
+    <div class="col-xs-12 col-sm-12 col-12">
+        <!--Ad your news to here -->
+        <div class="timeline timeline-second-style clearfix">
+            <div class="timeline-item clearfix">
+                <div class="left-part">
+                    <h5 class="item-period">5/5/2022</h5>
+                    <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> Publication</span></span>
+                </div>
+                <div class="divider"></div>
+                <div class="right-part">
+                    <h4 class="item-title">We published a paper. <a href="https://www.theregister.com/2022/05/05/stock_market_twitter/" target="_blank">Read more</a>.</h4>
+                    <p><a href="https://arxiv.org/abs/2205.01094" target="_blank">A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction</a></p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="divider"></div>
-    <div class="right-part">
-    <h4 class="item-title">We published a paper. <a href="https://www.theregister.com/2022/05/05/stock_market_twitter/" target="_blank">Read more</a>.</h4>
-    <p><a href="https://arxiv.org/abs/2205.01094" target="_blank">A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction</a></p>
-    </div>
-</div>
-
-</div>
-</div>
 </div>
