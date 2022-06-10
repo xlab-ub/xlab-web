@@ -103,7 +103,7 @@ You must edit the `sections/news.md` to update the contents of the news section.
 Follow up these steps to add a news to your website:
 
 1. Put this template below `<!--Put your news below this line -->` line in the `sections/news.md` file:
-<pre><code>
+```
   <div class="timeline timeline-second-style clearfix">
       <div class="timeline-item clearfix">
           <div class="left-part">
@@ -117,7 +117,7 @@ Follow up these steps to add a news to your website:
           </div>
       </div>
   </div>
-</code></pre>
+```
 1. Replace `{DATE}`, `{TYPE}`, `{TITLE}`, and `{DETAIL}` variables with your own contents.
 2. To change the color of the `{TYPE}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
 3. To change the icon of the `{TYPE}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
