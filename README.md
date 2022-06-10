@@ -29,7 +29,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#useful-links">Useful Links</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
     <li><a href="#left-menu">Left Menu</a></li>
@@ -59,15 +59,20 @@
 
 ## Getting Started
 
-This document describes how you may use the website to publish your contents.
+This document describes how you may use the website to publish your contents. This project includes three parts: **left menu**, **sections**, and **pages**.
 
-### Useful Links
+### Prerequisites
 
-- Markdown
+- Markdown Guide
   - https://www.markdownguide.org/basic-syntax/#reference-style-links
+- Add classes, identifiers and attributes to your markdown
+  - https://github.com/arve0/markdown-it-attrs
 - Email encoders
   - https://ctrlq.org/encode/
   - https://www.knechtology.com/stop-spam/email_encoder.html
+- Using Bootstrap for styling your contents
+  - https://getbootstrap.com/docs/
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -79,9 +84,9 @@ You can edit `index.html` to change the left menu.
 
 ## Sections
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Sections are the main contents of the website. To edit each section, you must edit the corresponding markdown file in the `sections` folder.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_NOTE: You can use a combination of `HTML` and `MARKDOWN` in the markdown files._
 
 
 
