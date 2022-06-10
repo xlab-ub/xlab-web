@@ -67,12 +67,13 @@ This document describes how you may use the website to publish your contents. Th
   - https://www.markdownguide.org/basic-syntax/#reference-style-links
 - Add classes, identifiers and attributes to your markdown
   - https://github.com/arve0/markdown-it-attrs
-- Email encoders
+- Email Encoders
   - https://ctrlq.org/encode/
   - https://www.knechtology.com/stop-spam/email_encoder.html
-- Using Bootstrap for styling your contents
+- Use Bootstrap for styling your contents
   - https://getbootstrap.com/docs/
-
+- Use Font Awesome for adding icons to your contents
+  - https://fontawesome.com/search
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -101,7 +102,7 @@ You must edit the `sections/news.md` to update the contents of the news section.
 
 Follow up these steps to add a news to your website:
 
-1. Add this template below `<!--Put your news below this line -->` line in the `sections/news.md` file:
+1. Put this template below `<!--Put your news below this line -->` line in the `sections/news.md` file:
 ```
 <div class="timeline timeline-second-style clearfix">
     <div class="timeline-item clearfix">
@@ -118,6 +119,9 @@ Follow up these steps to add a news to your website:
 </div>
 ```
 2. Replace `{DATE}`, `{TYPE}`, `{TITLE}`, and `{DETAIL}` variables with your own contents.
+3. To change the color of the `{TYPE}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
+4. To change the icon of the `{TYPE}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
+
 
 NOTE: The `{DETAIL}` variable is optional. Therefore, if your news hasn't `{DETAIL}` variable, you must remove `<p>{DETAIL}</p>`.
 
