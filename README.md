@@ -103,24 +103,24 @@ You must edit the `sections/news.md` to update the contents of the news section.
 Follow up these steps to add a news to your website:
 
 1. Put this template below `<!--Put your news below this line -->` line in the `sections/news.md` file:
-```
-<div class="timeline timeline-second-style clearfix">
-    <div class="timeline-item clearfix">
-        <div class="left-part">
-            <h5 class="item-period">{DATE}</h5>
-            <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> {TYPE}</span></span>
-        </div>
-        <div class="divider"></div>
-        <div class="right-part">
-            <h4 class="item-title">{TITLE}</h4>
-            <p>{DETAIL}</p>
-        </div>
-    </div>
-</div>
-```
-2. Replace `{DATE}`, `{TYPE}`, `{TITLE}`, and `{DETAIL}` variables with your own contents.
-3. To change the color of the `{TYPE}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
-4. To change the icon of the `{TYPE}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
+<pre>
+  <div class="timeline timeline-second-style clearfix">
+      <div class="timeline-item clearfix">
+          <div class="left-part">
+              <h5 class="item-period"><b>{DATE}</b></h5>
+              <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> <b>{TYPE}</b></span></span>
+          </div>
+          <div class="divider"></div>
+          <div class="right-part">
+              <h4 class="item-title"><b>{TITLE}</b></h4>
+              <p><b>{DETAIL}</b></p>
+          </div>
+      </div>
+  </div>
+</pre>
+1. Replace `{DATE}`, `{TYPE}`, `{TITLE}`, and `{DETAIL}` variables with your own contents.
+2. To change the color of the `{TYPE}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
+3. To change the icon of the `{TYPE}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
 
 
 _NOTE: The `{DETAIL}` variable is optional. Therefore, if your news hasn't `{DETAIL}` variable, you must remove `<p>{DETAIL}</p>`._
