@@ -265,7 +265,7 @@ To add a new team member, please put the following template below `<!-- Put the 
 
 _NOTE1: `{{BLOCK_TITLE}}` variable is title of a block, for example: Ph.D. Students, Master Students, etc._
 
-_NOTE2: `{{PERSON_DISPLAY_PHOTO_NAME}}` must be equivalent to full name of a person photo which is uploaded in `img/team` folder._
+_NOTE2: `{{PERSON_DISPLAY_PHOTO_NAME}}` must be equivalent to **full name** of a person photo which is uploaded in `img/team` folder._
 
 _NOTE3: If a person hasn't any of the `{{PERSONAL_URL}}` or `{{INFO}}` variables, please remove them from the template accordingly._
 
