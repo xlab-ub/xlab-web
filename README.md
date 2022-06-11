@@ -96,7 +96,7 @@ This document describes how you may use the website to publish your contents. Th
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Left Menu
-You can edit `index.html` to update the left menu.
+You can edit `index.html` to update the left menu. To do this, please edit the contents inside `<header id="site_header" class="header mobile-menu-hide"> ... </header>` tag.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
