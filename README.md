@@ -59,6 +59,7 @@
         <li><a href="#books-and-chapters-page">Books and Chapters Page</a></li>
       </ul>
     </li>
+    <li><a href="#license">license</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -265,7 +266,7 @@ To add a new team member, please put the following template below `<!-- Put the 
 
 _NOTE1: `{{BLOCK_TITLE}}` variable is title of a block, for example: Ph.D. Students, Master Students, etc._
 
-_NOTE2: `{{PERSON_DISPLAY_PHOTO_NAME}}` must be equivalent to **full name** of a person photo which is uploaded in `img/team` folder._
+_NOTE2: `{{PERSON_DISPLAY_PHOTO_NAME}}` must be equivalent to **full name** of a person photo which is uploaded in `img/team/` folder._
 
 _NOTE3: If a person hasn't any of the `{{PERSONAL_URL}}` or `{{INFO}}` variables, please remove them from the template accordingly._
 
@@ -286,28 +287,62 @@ _NOTE: Please encode your email by one of the `Email Encoders` to prevent spam._
 
 
 ## Pages
+Pages contain some contents, which can be loaded by ajax calls, for example when a user click on a button.
 
+A pages must be a `HTML` file.
 
 ### Patents Page
-
+To add a new item in the patents page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/patents.html` file.
 
 ### Journal Page
+You must edit the `pages/journal.html` file to update the contents of the journal page.
+
+To add a new paper, please put the following template below `<!-- Put your paper below this line -->` line in the `pages/journal.html` file:
+
+```
+<div class="row stacked-list">
+    <div class="col-sm-12 col-md-12 portfolio-block pt-0">
+        <div class="certificate-item clearfix mb-0 radius-0">
+            <div class="certi-logo radius-0 p-0 width-200">
+                <a href="./img/publications/journals/{{PAPER_PHOTO}}" target="_blank"><img src="./img/publications/journals/{{PAPER_PHOTO}}" alt="logo"></a>
+            </div>
+
+            <div class="certi-content">
+                <div class="certi-title">
+                    <h4>{{PAPER_REFERENCE}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+_NOTE1: Edit variables (`{{...}}`) based on your needs._
+
+_NOTE2: Paper's photo must be uploaded in the `img/publications/journals/` folder_
 
 
 ### Conferences Page
-
+To add a new item in the conferences page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/conferences.html` file.
 
 ### Workshops Page
-
+To add a new item in the workshops page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/workshops.html` file.
 
 ### Invited Papers Page
-
+To add a new item in the invited papers page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/invitedpapers.html` file.
 
 ### Books and Chapters page
-
+To add a new item in the books and chapters page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/bookchapters.html` file.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+
+Distributed under the Apache License 2.0. See `LICENSE` file for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## Contact
 
