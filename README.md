@@ -151,6 +151,7 @@ This section includes some sub-sections. To Create a new sub-section, you must p
 ```
 
 _NOTE1: Edit variables (`{...}`) based on your needs._
+
 _NOTE2: To create a new page, create a new `HTML file` in `pages` folder and replace its name with `{PAGE_NAME}` variable._
 
 ### Recognitions Section
@@ -176,6 +177,7 @@ To add a new accordion item, please put the following template below `<!-- Put t
 ```
 
 _NOTE1: Edit variables (`{...}`) based on your needs._
+
 _NOTE2: You must replace your content with `{CONTENT}` variable. The content can be a `MARKDOWN` or `HTML`._
 
 ### Services Section
@@ -201,6 +203,7 @@ To add a new accordion item, please put the following template below `<!-- Put t
 ```
 
 _NOTE1: Edit variables (`{...}`) based on your needs._
+
 _NOTE2: You must replace your content with `{CONTENT}` variable. The content can be a `MARKDOWN` or `HTML`._
 
 ### Teaching Section
