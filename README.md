@@ -48,6 +48,17 @@
         <li><a href="#contact-section">Contact Section</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#pages">Pages</a>
+      <ul>
+        <li><a href="#patents-page">Patents Page</a></li>
+        <li><a href="#journal-page">Journal Page</a></li>
+        <li><a href="#conferences-page">Conferences Page</a></li>
+        <li><a href="#workshops-page">Workshops Page</a></li>
+        <li><a href="#invited-papers-page">Invited Papers Page</a></li>
+        <li><a href="#books-and-chapters-page">Books and Chapters Page</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -113,23 +124,23 @@ Follow up these steps to add a news to your website:
   <div class="timeline timeline-second-style clearfix">
       <div class="timeline-item clearfix">
           <div class="left-part">
-              <h5 class="item-period"><b>{DATE}</b></h5>
-              <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> <b>{TYPE}</b></span></span>
+              <h5 class="item-period"><b>{{DATE}}</b></h5>
+              <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> <b>{{TYPE}}</b></span></span>
           </div>
           <div class="divider"></div>
           <div class="right-part">
-              <h4 class="item-title"><b>{TITLE}</b></h4>
-              <p><b>{DETAIL}</b></p>
+              <h4 class="item-title"><b>{{TITLE}}</b></h4>
+              <p><b>{{DETAIL}}</b></p>
           </div>
       </div>
   </div>
 ```
-2. Replace `{DATE}`, `{TYPE}`, `{TITLE}`, and `{DETAIL}` variables with your own contents.
-3. To change the color of the `{TYPE}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
-4. To change the icon of the `{TYPE}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
+2. Replace `{{DATE}}`, `{{TYPE}}`, `{{TITLE}}`, and `{{DETAIL}}` variables with your own contents.
+3. To change the color of the `{{TYPE}}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
+4. To change the icon of the `{{TYPE}}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
 
 
-_NOTE: The `{DETAIL}` variable is optional. Therefore, if your news hasn't `{DETAIL}` variable, you must remove `<p>{DETAIL}</p>`._
+_NOTE: The `{{DETAIL}}` variable is optional. Therefore, if your news hasn't `{{DETAIL}}` variable, you must remove `<p>{{DETAIL}}</p>`._
 
 ### Research Section
 
@@ -137,78 +148,91 @@ You must edit the `sections/research.md` file to update the contents of the rese
 
 ### Publication Section
 
-This section includes some sub-sections. To Create a new sub-section, you must put the following template below `<!--Put your item below this line -->` line in the `sections/publication.md` file and change the variables (`{...}`) based on your needs:
+This section includes some sub-sections. To Create a new sub-section, you must put the following template below `<!--Put your item below this line -->` line in the `sections/publication.md` file and change the variables (`{{...}}`) based on your needs:
 
 ```
 <div class="col mt-3">
     <div class="card" style="width: 13rem;">
-        <img src="./img/{ICON_FILE}.svg" class="card-img-top" alt="{ALT_TEXT}" style="padding: 1rem;" title="{TITLE_TEXT}">
+        <img src="./img/{{ICON_FILE}}.svg" class="card-img-top" alt="{{ALT_TEXT}}" style="padding: 1rem;" title="{{TITLE_TEXT}}">
         <div class="card-body text-center">
-            <a href="pages/{PAGE_NAME}.html" class="btn btn-primary ajax-page-load" style="font-size: .85em;">{BUTTON_TEXT}</a>
+            <a href="pages/{{PAGE_NAME}}.html" class="btn btn-primary ajax-page-load" style="font-size: .85em;">{{BUTTON_TEXT}}</a>
         </div>
     </div>
 </div>
 ```
 
-_NOTE1: Edit variables (`{...}`) based on your needs._
+_NOTE: Edit variables (`{{...}}`) based on your needs._
 
-_NOTE2: To create a new page, create a new `HTML file` in `pages` folder and replace its name with `{PAGE_NAME}` variable._
+_NOTE2: To create a new page, create a new `HTML file (*.html)` in `pages` folder and replace its name with `{{PAGE_NAME}}` variable._
 
 ### Recognitions Section
 
 You must edit the `sections/recognitions.md` file to update the contents of the recognitions section.
 
-To add a new accordion item, please put the following template below `<!-- Put the accordion item below this line -->` line:
+To add a new accordion item, please put the following template below `<!-- Put the accordion item below this line -->` line in the `sections/recognitions.md` file:
 
 ```
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="{ACCORDION_ID}">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#{CONTAINER_ID}" aria-expanded="true" aria-controls="{CONTAINER_ID}">
-        {TITLE}
-      </button>
-    </h2>
-    <div id="{CONTAINER_ID}" class="accordion-collapse collapse" aria-labelledby="{ACCORDION_ID}" data-bs-parent="#recognitionsAccordion">
-      <div class="accordion-body">
+<div class="accordion-item">
+  <h2 class="accordion-header" id="{{ACCORDION_ID}}">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#{{CONTAINER_ID}}" aria-expanded="true" aria-controls="{{CONTAINER_ID}}">
+      {{TITLE}}
+    </button>
+  </h2>
+  <div id="{{CONTAINER_ID}}" class="accordion-collapse collapse" aria-labelledby="{{ACCORDION_ID}}" data-bs-parent="#recognitionsAccordion">
+    <div class="accordion-body">
 
-{CONTENT}
-      </div>
+{{CONTENT}}
     </div>
   </div>
+</div>
 ```
 
-_NOTE1: Edit variables (`{...}`) based on your needs._
+_NOTE: Edit variables (`{{...}}`) based on your needs._
 
-_NOTE2: You must replace your content with `{CONTENT}` variable. The content can be a `MARKDOWN` or `HTML`._
+_NOTE2: You must replace your content with `{{CONTENT}}` variable. The content can be a `MARKDOWN` or `HTML`._
 
 ### Services Section
 
 You must edit the `sections/services.md` file to update the contents of the services section.
 
-To add a new accordion item, please put the following template below `<!-- Put the accordion item below this line -->` line:
+To add a new accordion item, please put the following template below `<!-- Put the accordion item below this line -->` line in the `sections/services.md` file:
 
 ```
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="{ACCORDION_ID}">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#{CONTAINER_ID}" aria-expanded="true" aria-controls="{CONTAINER_ID}">
-        {TITLE}
-      </button>
-    </h2>
-    <div id="{CONTAINER_ID}" class="accordion-collapse collapse" aria-labelledby="{ACCORDION_ID}" data-bs-parent="#recognitionsAccordion">
-      <div class="accordion-body">
+<div class="accordion-item">
+  <h2 class="accordion-header" id="{{ACCORDION_ID}}">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#{{CONTAINER_ID}}" aria-expanded="true" aria-controls="{{CONTAINER_ID}}">
+      {{TITLE}}
+    </button>
+  </h2>
+  <div id="{{CONTAINER_ID}}" class="accordion-collapse collapse" aria-labelledby="{{ACCORDION_ID}}" data-bs-parent="#recognitionsAccordion">
+    <div class="accordion-body">
 
-{CONTENT}
-      </div>
+{{CONTENT}}
     </div>
   </div>
+</div>
 ```
 
-_NOTE1: Edit variables (`{...}`) based on your needs._
+_NOTE: Edit variables (`{{...}}`) based on your needs._
 
-_NOTE2: You must replace your content with `{CONTENT}` variable. The content can be a `MARKDOWN` or `HTML`._
+_NOTE2: You must replace your content with `{{CONTENT}}` variable. The content can be a `MARKDOWN` or `HTML`._
 
 ### Teaching Section
 
-You must edit the `sections/research.md` to update the contents of the research section.
+You must edit the `sections/teaching.md` to update the contents of the teaching section.
+
+To add a new course, please put the following template below `<!-- Put your course below this line -->` line in the `sections/teaching.md` file:
+
+```
+<tr>
+  <th scope="row">{{COURSE_NUMBER}}</th>
+  <td>{{COURSE_NAME}}</td>
+  <td>{{SEMESTERS}}</td>
+  <td>{{LOCATION}}</td>
+</tr>
+```
+
+_NOTE: Edit variables (`{{...}}`) based on your needs._
 
 ### Team Section
 

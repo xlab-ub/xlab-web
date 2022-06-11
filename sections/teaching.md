@@ -14,6 +14,7 @@
     </tr>
   </thead>
   <tbody>
+  <!-- Put your course below this line -->
     <tr>
       <th scope="row">CSE 510</th>
       <td>Enterprise-Scale AI Systems and Solutions</td>
