@@ -39,6 +39,13 @@
         <li><a href="#home-section">Home Section</a></li>
         <li><a href="#news-section">News Section</a></li>
         <li><a href="#research-section">Research Section</a></li>
+        <li><a href="#publication-section">Publication Section</a></li>
+        <li><a href="#recognitions-section">Recognitions Section</a></li>
+        <li><a href="#services-section">Services Section</a></li>
+        <li><a href="#teaching-section">Teaching Section</a></li>
+        <li><a href="#team-section">Team Section</a></li>
+        <li><a href="#positions-section">Positions Section</a></li>
+        <li><a href="#contact-section">Contact Section</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -78,7 +85,7 @@ This document describes how you may use the website to publish your contents. Th
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Left Menu
-You can edit `index.html` to change the left menu.
+You can edit `index.html` to update the left menu.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -93,12 +100,11 @@ _NOTE: You can use a combination of `HTML` and `MARKDOWN` in the markdown files.
 
 ### Home Section
 
-You must edit the `sections/home.md` to update the logo, title, and contents of the home section.
-
+You must edit the `sections/home.md` file to update the logo, title, and contents of the home section.
 
 ### News Section
 
-You must edit the `sections/news.md` to update the contents of the news section.
+You must edit the `sections/news.md` file to update the contents of the news section.
 
 Follow up these steps to add a news to your website:
 
@@ -118,15 +124,98 @@ Follow up these steps to add a news to your website:
       </div>
   </div>
 ```
-1. Replace `{DATE}`, `{TYPE}`, `{TITLE}`, and `{DETAIL}` variables with your own contents.
-2. To change the color of the `{TYPE}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
-3. To change the icon of the `{TYPE}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
+2. Replace `{DATE}`, `{TYPE}`, `{TITLE}`, and `{DETAIL}` variables with your own contents.
+3. To change the color of the `{TYPE}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
+4. To change the icon of the `{TYPE}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
 
 
 _NOTE: The `{DETAIL}` variable is optional. Therefore, if your news hasn't `{DETAIL}` variable, you must remove `<p>{DETAIL}</p>`._
 
-
 ### Research Section
+
+You must edit the `sections/research.md` file to update the contents of the research section.
+
+### Publication Section
+
+This section includes some sub-sections. To Create a new sub-section, you must put the following template below `<!--Put your item below this line -->` line in the `sections/publication.md` file and change the variables (`{...}`) based on your needs:
+
+```
+<div class="col mt-3">
+    <div class="card" style="width: 13rem;">
+        <img src="./img/{ICON_FILE}.svg" class="card-img-top" alt="{ALT_TEXT}" style="padding: 1rem;" title="{TITLE_TEXT}">
+        <div class="card-body text-center">
+            <a href="pages/{PAGE_NAME}.html" class="btn btn-primary ajax-page-load" style="font-size: .85em;">{BUTTON_TEXT}</a>
+        </div>
+    </div>
+</div>
+```
+
+_NOTE1: Edit variables (`{...}`) based on your needs._
+_NOTE2: To create a new page, create a new `HTML file` in `pages` folder and replace its name with `{PAGE_NAME}` variable._
+
+### Recognitions Section
+
+You must edit the `sections/recognitions.md` file to update the contents of the recognitions section.
+
+To add a new accordion item, please put the following template below `<!-- Put the accordion item below this line -->` line:
+
+```
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="{ACCORDION_ID}">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#{CONTAINER_ID}" aria-expanded="true" aria-controls="{CONTAINER_ID}">
+        {TITLE}
+      </button>
+    </h2>
+    <div id="{CONTAINER_ID}" class="accordion-collapse collapse" aria-labelledby="{ACCORDION_ID}" data-bs-parent="#recognitionsAccordion">
+      <div class="accordion-body">
+
+{CONTENT}
+      </div>
+    </div>
+  </div>
+```
+
+_NOTE1: Edit variables (`{...}`) based on your needs._
+_NOTE2: You must replace your content with `{CONTENT}` variable. The content can be a `MARKDOWN` or `HTML`._
+
+### Services Section
+
+You must edit the `sections/services.md` file to update the contents of the services section.
+
+To add a new accordion item, please put the following template below `<!-- Put the accordion item below this line -->` line:
+
+```
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="{ACCORDION_ID}">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#{CONTAINER_ID}" aria-expanded="true" aria-controls="{CONTAINER_ID}">
+        {TITLE}
+      </button>
+    </h2>
+    <div id="{CONTAINER_ID}" class="accordion-collapse collapse" aria-labelledby="{ACCORDION_ID}" data-bs-parent="#recognitionsAccordion">
+      <div class="accordion-body">
+
+{CONTENT}
+      </div>
+    </div>
+  </div>
+```
+
+_NOTE1: Edit variables (`{...}`) based on your needs._
+_NOTE2: You must replace your content with `{CONTENT}` variable. The content can be a `MARKDOWN` or `HTML`._
+
+### Teaching Section
+
+You must edit the `sections/research.md` to update the contents of the research section.
+
+### Team Section
+
+You must edit the `sections/research.md` to update the contents of the research section.
+
+### Positions Section
+
+You must edit the `sections/research.md` to update the contents of the research section.
+
+### Contact Section
 
 You must edit the `sections/research.md` to update the contents of the research section.
 
