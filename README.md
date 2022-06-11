@@ -287,7 +287,7 @@ _NOTE: Please encode your email by one of the `Email Encoders` to prevent spam._
 
 
 ## Pages
-Pages contain some contents, which can be loaded by ajax calls, for example when a user click on a button.
+Pages contain some contents, which can be loaded by ajax calls, for example when a user click on a button. Please check `Publication` section for a live example.
 
 A pages must be a `HTML` file.
 
