@@ -292,7 +292,7 @@ Pages contain some contents, which can be loaded by ajax calls, for example when
 A pages must be a `HTML` file.
 
 ### Patents Page
-To add a new item in the patents page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/patents.html` file.
+To add a new item in the patents page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/patents.html` file.
 
 ### Journal Page
 You must edit the `pages/journal.html` file to update the contents of the journal page.
@@ -323,16 +323,16 @@ _NOTE2: Paper's photo must be uploaded in the `img/publications/journals/` folde
 
 
 ### Conferences Page
-To add a new item in the conferences page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/conferences.html` file.
+To add a new item in the conferences page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/conferences.html` file.
 
 ### Workshops Page
-To add a new item in the workshops page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/workshops.html` file.
+To add a new item in the workshops page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/workshops.html` file.
 
 ### Invited Papers Page
-To add a new item in the invited papers page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/invitedpapers.html` file.
+To add a new item in the invited papers page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/invitedpapers.html` file.
 
 ### Books and Chapters page
-To add a new item in the books and chapters page, you can put the item below `<!-- Add a new item below this line -->` line in the `pages/bookchapters.html` file.
+To add a new item in the books and chapters page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/bookchapters.html` file.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
