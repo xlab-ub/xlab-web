@@ -284,6 +284,31 @@ _NOTE: Please encode your email by one of the `Email Encoders` to prevent spam._
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+## Pages
+
+
+### Patents Page
+
+
+### Journal Page
+
+
+### Conferences Page
+
+
+### Workshops Page
+
+
+### Invited Papers Page
+
+
+### Books and Chapters page
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Contact
 
 Project Link: [https://github.com/KiarashS/XLab](https://github.com/KiarashS/XLab)
