@@ -236,15 +236,50 @@ _NOTE: Edit variables (`{{...}}`) based on your needs._
 
 ### Team Section
 
-You must edit the `sections/research.md` to update the contents of the research section.
+You must edit the `sections/team.md` to update the contents of the teaching section.
+
+To create a new new block in the team page, please use the following template in the `sections/team.md` file:
+
+```
+<div class="text-center"><div class="block-title"><h3>{{BLOCK_TITLE}}</h3></div></div>
+  <div class="row row-cols-auto g-4 justify-content-center">
+    <!-- Put the new member item below this line -->
+
+  </div>
+</div>
+```
+
+To add a new team member, please put the following template below `<!-- Put the new member item below this line -->` line in the top template or `inside the blocks` in the `sections/team.md` file: 
+
+```
+<div class="col">
+  <div class="card-team">
+    <img src="./img/team/{{PERSON_DISPLAY_PHOTO_NAME}}" />
+    <div class="info">
+      <h1>{{FULL_NAME}}</h1>
+      <p>{{MEMBER_TITLE}}</p><a href="{{PERSONAL_URL}}" target="_blank">{{URL_TEXT}} <i class="fa-solid fa-caret-right"></i></a> <span data-bs-toggle="tooltip" data-bs-html="true" data-bs-custom-class="custom-info-tooltip" title="<p class='text-left text-warning'>{{ENCODED_EMAIL_ADDRESS}}</p><hr class='mt-0'><p class='text-left'>{{INFO}}</em></p>" class="info-button d-inline-block float-end"><i class="fa-solid fa-circle-info fa-lg fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i></span>
+    </div>
+  </div>
+</div>
+```
+
+_NOTE1: `{{BLOCK_TITLE}}` variable is title of a block, for example: Ph.D. Students, Master Students, etc._
+
+_NOTE2: `{{PERSON_DISPLAY_PHOTO_NAME}}` must be equivalent to full name of a person photo which is uploaded in `img/team` folder._
+
+_NOTE3: If a person hasn't any of the `{{PERSONAL_URL}}` or `{{INFO}}` variables, please remove them from the template accordingly._
+
+_NOTE4: You should encode a person email by https://ctrlq.org/encode/ and replace it with `{{ENCODED_EMAIL_ADDRESS}}` variable._
 
 ### Positions Section
 
-You must edit the `sections/research.md` to update the contents of the research section.
+You must edit the `sections/positions.md` file to update the contents of the positions section.
 
 ### Contact Section
 
-You must edit the `sections/research.md` to update the contents of the research section.
+You must edit the `sections/contact.md` file to update the contents of the contact section.
+
+_NOTE: Please encode your email by one of the `Email Encoders` to prevent spam._
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
