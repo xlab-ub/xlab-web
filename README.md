@@ -29,7 +29,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#useful-links">Useful Links</a></li>
       </ul>
     </li>
     <li><a href="#left-menu">Left Menu</a></li>
@@ -79,7 +79,7 @@
 
 This document describes how you may use the website to publish your contents. This project includes three parts: **left menu**, **sections**, and **pages**.
 
-### Prerequisites
+### Useful Links
 
 - Markdown Guide
   - https://www.markdownguide.org/basic-syntax/#reference-style-links
