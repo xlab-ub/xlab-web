@@ -319,7 +319,7 @@ To add a new paper, please put the following template below `<!-- Put your paper
 
 _NOTE1: Edit variables (`{{...}}`) based on your needs._
 
-_NOTE2: Paper's photo must be uploaded in the `img/publications/journals/` folder_
+_NOTE2: `{{PAPER_PHOTO}}` must be equivalent to **full name** of a paper photo which is uploaded in `img/publications/journals/` folder._
 
 
 ### Conferences Page
