@@ -43,6 +43,18 @@
         <div class="timeline timeline-second-style clearfix">
             <div class="timeline-item clearfix">
                 <div class="left-part">
+                    <h5 class="item-period">6/12/2022</h5>
+                    <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> Publication</span></span>
+                </div>
+                <div class="divider"></div>
+                <div class="right-part">
+                    <h4 class="item-title">It is our pleasure to inform you that our paper: <a href="https://arxiv.org/abs/2204.01701" target="_blank">QuadraLib: A Performant Quadratic Neural Network Library for Architecture Optimization and Design Exploration</a> is one of the top 5 outstanding papers in the <a href="https://mlsys.org/Conferences/2022/Schedule?showEvent=2059" target="_blank">MLSys</a> conference.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="timeline timeline-second-style clearfix">
+            <div class="timeline-item clearfix">
+                <div class="left-part">
                     <h5 class="item-period">5/5/2022</h5>
                     <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> Publication</span></span>
                 </div>
