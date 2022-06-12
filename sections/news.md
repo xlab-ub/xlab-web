@@ -48,7 +48,7 @@
                 </div>
                 <div class="divider"></div>
                 <div class="right-part">
-                    <h4 class="item-title">It is our pleasure to inform you that our paper: <a href="https://arxiv.org/abs/2204.01701" target="_blank">QuadraLib: A Performant Quadratic Neural Network Library for Architecture Optimization and Design Exploration</a> is one of the top 5 outstanding papers in the <a href="https://mlsys.org/Conferences/2022/Schedule?showEvent=2059" target="_blank">MLSys</a> conference.</h4>
+                    <h4 class="item-title">It is our pleasure to inform you that our paper: <a href="https://arxiv.org/abs/2204.01701" target="_blank">QuadraLib: A Performant Quadratic Neural Network Library for Architecture Optimization and Design Exploration</a> is recognized as one of the top 5 outstanding papers in the <a href="https://mlsys.org/Conferences/2022/Schedule?showEvent=2059" target="_blank">MLSys</a> conference.</h4>
                 </div>
             </div>
         </div>
