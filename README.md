@@ -123,7 +123,7 @@ Follow up these steps to add a news to your website:
 1. Put this template below `<!--Put your news below this line -->` line in the `sections/news.md` file:
 ```
 <div class="timeline timeline-second-style clearfix">
-    <div class="timeline-item clearfix">
+    <div class="timeline-item clearfix pb-3">
         <div class="left-part">
             <h5 class="item-period"><b>{{DATE}}</b></h5>
             <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> <b>{{TYPE}}</b></span></span>

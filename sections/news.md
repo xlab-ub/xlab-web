@@ -41,7 +41,7 @@
     <div class="col-xs-12 col-sm-12 col-12">
         <!--Put your news below this line -->
         <div class="timeline timeline-second-style clearfix">
-            <div class="timeline-item clearfix">
+            <div class="timeline-item clearfix pb-3">
                 <div class="left-part">
                     <h5 class="item-period">6/12/2022</h5>
                     <span class="item-company"><span class="badge bg-success"><i class="fa-regular fa-newspaper"></i> Publication</span></span>
