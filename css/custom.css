@@ -221,7 +221,7 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 
 @media (max-width: 768px) { .certi-logo { display: none;} #journals-info-alert { display: none !important; } }
 
-.header-titles h2, .copyrights, .sp-subtitle{
+.header-titles h2, .copyrights, .sp-subtitle, .header-titles h4{
   text-shadow: 0 0 5px #000;
 }
 
@@ -295,9 +295,9 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 }
 .card-team .info h1 {
   color: #fff;
-	margin: 0px;
-	font-size: 16px;
-	text-shadow: -1px 1px 8px #fff;
+  margin: 0px;
+  font-size: 16px;
+  text-shadow: -1px 1px 8px #fff;
 }
 .card-team .info p {
 	letter-spacing: 1px;
@@ -337,6 +337,11 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
   width: 90%;
 }
 
+.timeline-second-style .item-title {
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
 @media only screen and (min-width: 1025px) { .page {padding-left: 85px;} ul.main-menu {width: 85px;left: -85px;}}
 @media (max-width: 1024px) {.timeline-second-style .left-part {width: 100%; display: block; padding-left: 25px; min-height: 100%; text-align: left;} .timeline-second-style .right-part {width: 100%; display: block; padding-left: 25px; padding-right: 0;} .timeline-second-style .divider {left:0;} .timeline-second-style .timeline-item {position: relative; display: block;}}
 
@@ -362,4 +367,42 @@ ul.main-menu {overflow-y: auto; margin-bottom: 0;overflow-x: auto;} /*This is a 
 .stacked-list .certi-logo {
   border-right: 1px solid #e5e5e5;
   background-color: #fff;
+}
+
+.header-titles h4 {
+  font-size: .9em;
+}
+
+
+/* Circle card team */
+.card-team {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+.card-team::before {
+  border-radius: 50%;
+}
+
+.card-team img {
+  border-radius: 50%;
+}
+
+.card-team .info {
+  margin: auto !important;
+  text-align: center;
+}
+
+.card-team .info a {
+  margin-left: 19.99px;
+  font-size: 11.5px;
+}
+
+.card-team .info h1 {
+  font-size: 15px;
+}
+
+.card-team .info p {
+  font-size: 12px;
 }

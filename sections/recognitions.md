@@ -1,7 +1,8 @@
-<div class="block-title"><h3>Recognitions: Part of a Journey, but not the <span>Destination</span></h3></div>
+<div class="block-title"><h3>Recognitions: Part of a Journey, but not the Destination</h3></div>
 <br>
 
 <div class="accordion accordion-flush" id="recognitionsAccordion">
+<!-- Put the accordion item below this line -->
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

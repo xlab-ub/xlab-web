@@ -1,0 +1,8 @@
+Markdown:
+https://www.markdownguide.org/basic-syntax/#reference-style-links
+
+
+Email Encoders:
+https://ctrlq.org/encode/
+https://www.knechtology.com/stop-spam/email_encoder.html
+

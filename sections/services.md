@@ -1,7 +1,8 @@
-<div class="block-title"><h3>Services: for it's our <span>Community</span></h3></div>
+<div class="block-title"><h3>Services: for it's our community</h3></div>
 <br>
 
 <div class="accordion accordion-flush" id="servicesAccordion">
+<!-- Put the accordion item below this line -->
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

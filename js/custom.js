@@ -12,18 +12,26 @@ function customScroller() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    axios.all([axios.get("./sections/news.md"),
+    axios.all([axios.get("./sections/home.md"),
+            axios.get("./sections/news.md"),
             axios.get("./sections/research.md"),
             axios.get("./sections/publication.md"),
             axios.get("./sections/recognitions.md"),
             axios.get("./sections/services.md"),
             axios.get("./sections/teaching.md"),
-            axios.get("./sections/team.html"),
-            axios.get("./sections/positions.md")
+            axios.get("./sections/team.md"),
+            axios.get("./sections/positions.md"),
+            axios.get("./sections/contact.md")
         ])
-        .then(axios.spread((firstResponse, secondResponse, thirdResponse, forthResponse, fifthResponse, sixthResponse, seventhResponse, eighthResponse) => {
+        .then(axios.spread((zeroResponse, firstResponse, secondResponse, thirdResponse, forthResponse, fifthResponse, sixthResponse, seventhResponse, eighthResponse, ninthResponse) => {
             var md = new window.markdownit("commonmark", {html: true, breaks: true, linkify: true, typographer: true});
+            var mdAttr = window.markdownItAttrs;
+            md.use(mdAttr);
 
+
+            var elem0 = document.querySelector('#home-container');
+            var html0 = md.render(zeroResponse.data);
+            elem0.innerHTML = html0;
 
             var elem1 = document.querySelector('#news-container');
             var html1 = md.render(firstResponse.data);
@@ -56,6 +64,11 @@ document.addEventListener("DOMContentLoaded", function () {
             var elem8 = document.querySelector('#positions-container');
             var html8 = md.render(eighthResponse.data);
             elem8.innerHTML = html8;
+
+            var elem9 = document.querySelector('#contact-container');
+            var html9 = md.render(ninthResponse.data);
+            elem9.innerHTML = html9;
+
 
             customScroller();
 
