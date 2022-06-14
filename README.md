@@ -59,7 +59,7 @@
         <li><a href="#books-and-chapters-page">Books and Chapters Page</a></li>
       </ul>
     </li>
-    <li><a href="#license">license</a></li>
+    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
