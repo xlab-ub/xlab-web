@@ -1,13 +1,13 @@
 <div class="row">
 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-    <img width="110" src="./img/ai.svg" alt="X-Lab Logo" title="X-Lab@UB" class="d-inline img-fluid" />
+    <img width="600" src="./img/XLab.svg" alt="X-Lab Logo" title="X-Lab@UB" class="d-inline img-fluid" />
 </div>
 </div>
 
 <div class="row mb-25">
     <div class="col-sm-12 col-md-12 col-lg-12" style="padding-left: 0; padding-right: 0;">
     <div class="title-block">
-        <h2 style="font-size: 35px;">X-LAB@UB: Accelerating AI Systems & Solutions</h2>
+        <h2 style="font-size: 35px;">Accelerating AI Systems & Solutions</h2>
         <!-- <div class="owl-carousel text-rotation">
         <div class="item">
             <div class="sp-subtitle">Web Designer</div>
