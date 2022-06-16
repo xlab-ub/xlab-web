@@ -29,3 +29,9 @@
     <p><span>He has published more than 150 peer-reviewed papers in top AI conferences and systems conferences. His publication has won </span><span><em><strong>seven</strong></em></span><span> Best Paper Awards and </span><span><em><strong>eight</strong></em></span><span> Nominations for Best Paper Awards. Dr. Xiong also won top awards from various international competitions, including the recent </span><span><em><strong>Championship Award</strong></em></span><span> for the IEEE GraphChallenge on accelerating sparse neural networks, and the </span><span><em><strong>Championship Awards</strong></em></span><span> for the DAC'19 Systems Design Contest on designing an object detection neural network for both edge FPGA track and the edge GPU track. </span><span>Many of his research results have been adopted in commercial enterprise-scale products and tools.</span></p>
     </div>
 </div>
+
+<div class="row mt-3">
+    <div class="col">
+        <a class="lightbox float-md-end" title="School of Engineering and Applied Sciences (Davis Hall)" href="./img/davis-hall.jpg" style="font-size: .7em;">Photo of School of Engineering and Applied Sciences (Davis Hall)</a>
+    </div>
+</div>
