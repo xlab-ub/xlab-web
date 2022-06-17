@@ -43,7 +43,7 @@
 <div class="text-center mt-5"><div class="block-title mt-5"><h3>Master Students</h3></div></div>
 <div class="row row-cols-auto g-4 justify-content-center">
   <div class="col">
-    <div class="card-team"><img src="./img/team/Tanuja-Joshi.jpg" />
+    <div class="card-team"><img src="./img/team/Tanuja-Joshi2.jpg" />
       <div class="info">
         <h1>Tanuja Joshi</h1>
         <p>Master Student</p><span data-bs-toggle="tooltip" data-bs-html="true" data-bs-custom-class="custom-info-tooltip" title="<p class='text-left text-warning mb-0'>&#116;&#97;&#110;&#117;&#106;&#97;&#106;&#111;&#64;&#98;&#117;&#102;&#102;&#97;&#108;&#111;&#46;&#101;&#100;&#117;</p>" class="info-button d-inline-block float-end"><i class="fa-solid fa-circle-info fa-lg fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i></span>
