@@ -1,6 +1,6 @@
 <div class="row">
 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-    <img width="600" src="./img/XLab.svg" alt="X-Lab Logo" title="X-Lab@UB" class="d-inline img-fluid" />
+    <img width="700" src="./img/XLab.svg" alt="X-Lab Logo" title="X-Lab@UB" class="d-inline img-fluid" />
 </div>
 </div>
 
