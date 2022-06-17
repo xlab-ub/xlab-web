@@ -32,6 +32,6 @@
 
 <div class="row mt-3">
     <div class="col">
-        <a class="lightbox float-md-end" title="School of Engineering and Applied Sciences (Davis Hall)" href="./img/davis-hall.jpg" style="font-size: .7em;">Photo of School of Engineering and Applied Sciences (Davis Hall)</a>
+        <a class="lightbox float-md-end" title="School of Engineering and Applied Sciences (Davis Hall)" href="./img/davis-hall.jpg" style="font-size: .7em;">Photo: School of Engineering and Applied Sciences (Davis Hall)</a>
     </div>
 </div>
