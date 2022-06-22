@@ -86,6 +86,10 @@ This document describes how you can use the website. This project includes three
   - https://www.markdownguide.org/basic-syntax/#reference-style-links
 - Add classes, identifiers and attributes to your markdown
   - https://github.com/arve0/markdown-it-attrs
+- Add block-level custom containers and Div tags to your markdown
+  - https://github.com/markdown-it/markdown-it-container or https://github.com/kickscondor/markdown-it-div
+- Add Span tags to your markdown
+  - https://github.com/mb21/markdown-it-bracketed-spans
 - Email Encoders
   - https://ctrlq.org/encode/
   - https://www.knechtology.com/stop-spam/email_encoder.html
