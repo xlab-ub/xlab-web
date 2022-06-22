@@ -70,7 +70,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](#)
+[![Product Name Screen Shot][product-screenshot]](img/doc/screenshot.jpeg)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -78,7 +78,7 @@
 
 ## Getting Started
 
-This document describes how you may use the website to publish your contents. This project includes three parts: **left menu**, **sections**, and **pages**.
+This document describes how you can use the website. This project includes three parts: **left menu**, **sections**, and **pages**.
 
 ### Useful Links
 
@@ -118,7 +118,7 @@ You must edit the `sections/home.md` file to update the logo, title, and content
 
 You must edit the `sections/news.md` file to update the contents of the news section.
 
-Follow up these steps to add a news to your website:
+Follow up these steps to add news to your website:
 
 1. Put this template below `<!--Put your news below this line -->` line in the `sections/news.md` file:
 ```
@@ -136,7 +136,7 @@ Follow up these steps to add a news to your website:
     </div>
 </div>
 ```
-2. Replace `{{DATE}}`, `{{TYPE}}`, `{{TITLE}}`, and `{{DETAIL}}` variables with your own contents.
+2. Replace `{{DATE}}`, `{{TYPE}}`, `{{TITLE}}`, and `{{DETAIL}}` variables with your contents.
 3. To change the color of the `{{TYPE}}` variable, please replace `<span class="badge bg-success"> ... </span>` with an another color from https://getbootstrap.com/docs/5.2/components/badge/#background-colors
 4. To change the icon of the `{{TYPE}}` variable, please replace `<i class="fa-regular fa-newspaper"></i>` with a new icon from https://fontawesome.com/search
 
@@ -149,7 +149,7 @@ You must edit the `sections/research.md` file to update the contents of the rese
 
 ### Publication Section
 
-This section includes some sub-sections. To Create a new sub-section, you must put the following template below `<!--Put your item below this line -->` line in the `sections/publication.md` file and change the variables (`{{...}}`) based on your needs:
+This section includes some sub-sections. To create a new sub-section, you must put the following template below `<!--Put your item below this line -->` line in the `sections/publication.md` file and change the variables (`{{...}}`) based on your needs:
 
 ```
 <div class="col mt-3">
@@ -239,7 +239,7 @@ _NOTE: Edit variables (`{{...}}`) based on your needs._
 
 You must edit the `sections/team.md` to update the contents of the teaching section.
 
-To create a new new block in the team page, please use the following template in the `sections/team.md` file:
+To create a new block in the team page, please use the following template in the `sections/team.md` file:
 
 ```
 <div class="text-center"><div class="block-title"><h3>{{BLOCK_TITLE}}</h3></div></div>
@@ -270,7 +270,7 @@ _NOTE2: `{{PERSON_DISPLAY_PHOTO_NAME}}` must be equivalent to **full name** of a
 
 _NOTE3: If a person hasn't any of the `{{PERSONAL_URL}}` or `{{INFO}}` variables, please remove them from the template accordingly._
 
-_NOTE4: You should encode a person email by https://ctrlq.org/encode/ and replace it with `{{ENCODED_EMAIL_ADDRESS}}` variable._
+_NOTE4: You should encode a person's email by https://ctrlq.org/encode/ and replace it with `{{ENCODED_EMAIL_ADDRESS}}` variable._
 
 ### Positions Section
 
@@ -287,12 +287,12 @@ _NOTE: Please encode your email by one of the `Email Encoders` to prevent spam._
 
 
 ## Pages
-Pages contain some contents, which can be loaded by ajax calls, for example when a user click on a button. Please check `Publication` section for a live example.
+Pages contain some contents, which can be loaded by ajax calls, for example, when a user clicks on a button. Please check the `Publication` section for a live example.
 
-A pages must be a `HTML` file.
+Pages must be an `HTML` file.
 
 ### Patents Page
-To add a new item in the patents page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/patents.html` file.
+To add a new item to the patents page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/patents.html` file.
 
 ### Journal Page
 You must edit the `pages/journal.html` file to update the contents of the journal page.
@@ -319,27 +319,27 @@ To add a new paper, please put the following template below `<!-- Put your paper
 
 _NOTE1: Edit variables (`{{...}}`) based on your needs._
 
-_NOTE2: `{{PAPER_PHOTO}}` must be equivalent to **full name** of a paper's photo which is uploaded in `img/publications/journals/` folder._
+_NOTE2: `{{PAPER_PHOTO}}` must be equivalent to **full name** of a paper's photo, which is uploaded in the`img/publications/journals/` folder._
 
 
 ### Conferences Page
-To add a new item in the conferences page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/conferences.html` file.
+To add a new item to the conferences page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/conferences.html` file.
 
 ### Workshops Page
-To add a new item in the workshops page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/workshops.html` file.
+To add a new item to the workshops page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/workshops.html` file.
 
 ### Invited Papers Page
-To add a new item in the invited papers page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/invitedpapers.html` file.
+To add a new item to the invited papers page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/invitedpapers.html` file.
 
 ### Books and Chapters page
-To add a new item in the books and chapters page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/bookchapters.html` file.
+To add a new item to the books and chapters page, you can put the item as a `<li>...</li>` tag below `<!-- Add a new item below this line -->` line in the `pages/bookchapters.html` file.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
 
-Distributed under the Apache License 2.0. See `LICENSE` file for more information.
+Distributed under the Apache License 2.0. See the `LICENSE` file for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
